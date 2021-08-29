@@ -22,7 +22,7 @@ We have included a script that will "Monkey Patch" the relevant file/method. The
 > Remeber to replace  `MY_SITE`  with your site name.
 
     cd frappe-bench
-    bench get-app https://github.com/pstuhlmueller/workspaceperms.git
+    bench get-app https://github.com/yate-dev/workspaceperms.git
     bench --site MY_SITE install-app workspaceperms
     # This will do the modification within frappe/frappe/boot.py
     bench execute workspaceperms.seeds.execute
